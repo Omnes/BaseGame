@@ -1,0 +1,44 @@
+
+spelet är uppdelat i två faser Wave och Exploration
+
+
+Player
+    upp till 4 spelare
+    spelarna specialicerar sig till olika roller Assult/build/scout
+    respawnar mellan vågor
+
+
+Base
+    Börjar med en Main byggnad som MÅSTE försvaras
+    Saker som går att bygga
+        Turrets
+        Uppgraderings byggnad
+
+    spelarna vinner när de konsturerat en vinst byggnad
+    spelarna förlorar om alla dör eller huvudbyggnaden dör
+
+Wave phase
+    ett begränsat antal fiender spawnar
+    fasen tar slut när alla fiender är döda eller när en timer har tickat ner 
+    vågorna blir svårare och svårare
+    resurser spawnar i världen under en wave
+
+Exploration phase
+    begränsad tid tills nästa Wave
+    fiender patrullerar
+    fiender vaktar resurser
+    spelarna kan använda nertiden till att bygga och uppgradera eller hämta resurser
+
+
+Enemy
+    har hp
+    droppar resurser när de dör
+    stray enemies
+        vandrar runt i världen
+        vaktar resurser / samlar
+        aggroar på spelare som kommer nära
+
+    wave enemies
+        attackrar basen / spelare som är nära
+
+    ranged / melee / flying

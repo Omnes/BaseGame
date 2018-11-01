@@ -1,0 +1,36 @@
+Minimum viable product
+
+Player
+    endast tank
+    movement implemneterat
+    spelaren kan sikta och skjuta
+    hp implemnterat
+    spelaren kan dö och respawna
+
+    
+Bas
+    mainbygnad som kan dö -> game over skärm
+    plats att lämna in resurser ska finnas
+
+Faser
+    Spelet börjar i Begin fasen
+    spelarna kan starta spel omgången 
+    spelet börjar i exploration
+    sen byts faserna av när de slutar
+
+Wave
+    Vågen spawnar fiender
+    tar slut efter en tid¨
+
+Exploration
+    resurser är utspridda 
+    fiender har randomspawnat
+    tar slut efter 2 min
+    spelaren kan plocka upp resurser
+
+
+
+
+
+
+multiplayer implementerat för allt
